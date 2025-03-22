@@ -1,0 +1,7 @@
+entity,instance,name,value
+Column,rating,Mean,3.643090371513048
+Column,rating,Minimum,1.0
+Column,rating,Maximum,5.0
+Column,rating,StandardDeviation,1.0568294847802406
+Column,movie_id,ApproxCountDistinct,5852.0
+Dataset,*,Size,38895.0

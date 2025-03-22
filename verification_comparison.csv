@@ -1,0 +1,15 @@
+Check,Constraint,Good Data Passed,Bad Data Passed
+Data quality checks for movie data,"ComplianceConstraint(Compliance(rating contained in 1.0,2.0,3.0,4.0,5.0,`rating` IS NULL OR `rating` IN ('1.0','2.0','3.0','4.0','5.0'),None))",Failure,Failure
+Data quality checks for movie data,"MinimumConstraint(Minimum(Action,None))",Success,Failure
+Data quality checks for movie data,"MaximumConstraint(Maximum(Action,None))",Success,Success
+Data quality checks for movie data,"MinimumConstraint(Minimum(Comedy,None))",Success,Success
+Data quality checks for movie data,"MaximumConstraint(Maximum(Comedy,None))",Success,Failure
+Data quality checks for movie data,"MinimumConstraint(Minimum(Crime,None))",Success,Success
+Data quality checks for movie data,"MaximumConstraint(Maximum(Crime,None))",Success,Success
+Data quality checks for movie data,"CompletenessConstraint(Completeness(user_id,None))",Success,Success
+Data quality checks for movie data,"CompletenessConstraint(Completeness(movie_id,None))",Success,Success
+Data quality checks for movie data,"CompletenessConstraint(Completeness(rating,None))",Success,Success
+Data quality checks for movie data,"CompletenessConstraint(Completeness(title,None))",Success,Success
+Data quality checks for movie data,"CompletenessConstraint(Completeness(Action,None))",Success,Success
+Data quality checks for movie data,"CompletenessConstraint(Completeness(Comedy,None))",Success,Success
+Data quality checks for movie data,"CompletenessConstraint(Completeness(Crime,None))",Success,Success
